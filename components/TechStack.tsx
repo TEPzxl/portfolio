@@ -8,7 +8,7 @@ export default function TechStack() {
           <p className="text-sm uppercase tracking-[0.25em] text-neutral-400">
             What I use
           </p>
-          <h2 className="mt-3 text-3xl font-bold text-white md:text-4xl">
+          <h2 className="mt-3 bg-linear-to-r from-white to-neutral-400 bg-clip-text text-3xl font-bold text-transparent md:text-4xl">
             My Tech Stack
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-sm text-neutral-300 md:text-base">
@@ -21,7 +21,7 @@ export default function TechStack() {
           {techStack.map((group) => (
             <div
               key={group.category}
-              className="rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm"
+              className="rounded-2xl border border-white/10 bg-linear-to-br from-white/8 to-white/3 p-6 backdrop-blur-sm transition duration-300 hover:-translate-y-1 hover:border-white/20"
             >
               <h3 className="mb-5 text-lg font-semibold text-white">
                 {group.category}
@@ -34,7 +34,7 @@ export default function TechStack() {
                   return (
                     <div
                       key={item.name}
-                      className="flex items-center gap-3 rounded-xl border border-white/10 bg-black/20 px-4 py-3 transition-transform duration-300 hover:-translate-y-1 hover:border-white/20"
+                      className="flex items-center gap-3 rounded-xl border border-white/10 bg-black/20 px-4 py-3 transition duration-300 hover:border-white/20 hover:bg-white/5"
                     >
                       <Icon className="h-5 w-5 shrink-0 text-neutral-200" />
                       <span className="text-sm text-neutral-300">
