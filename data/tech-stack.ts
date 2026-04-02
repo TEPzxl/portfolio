@@ -1,5 +1,5 @@
 import { IconType } from "react-icons";
-import { SiDjango, SiGin, SiGit, SiGo, SiJavascript, SiLinux, SiMysql, SiPostgresql, SiPostman, SiPython, SiReact, SiRedis, SiTailwindcss, SiTypescript } from "react-icons/si";
+import { SiDjango, SiGin, SiGit, SiGo, SiJavascript, SiLinux, SiMysql, SiNextdotjs, SiPostgresql, SiPostman, SiPython, SiReact, SiRedis, SiTailwindcss, SiTypescript } from "react-icons/si";
 
 export type TechItem = {
     name: string;
@@ -18,7 +18,8 @@ export const techStack: TechGroup[] = [
             {name: "JavaScript", icon: SiJavascript},
             {name: "TypeScript", icon: SiTypescript},
             {name: "React", icon: SiReact},
-            {name: "Tailwind CSS", icon: SiTailwindcss}
+            {name: "Tailwind CSS", icon: SiTailwindcss},
+            {name: "Next.js", icon: SiNextdotjs}
         ]
     },
     {
@@ -35,6 +36,7 @@ export const techStack: TechGroup[] = [
         items: [
             {name: "MySQL", icon: SiMysql},
             {name: "PostgreSQL", icon: SiPostgresql},
+            {name: "Redis", icon: SiRedis}
         ]
     },
     {
@@ -43,7 +45,6 @@ export const techStack: TechGroup[] = [
             {name: "Linux", icon: SiLinux},
             {name: "Git", icon: SiGit},
             {name: "Postman", icon: SiPostman},
-            {name: "Redis", icon: SiRedis}
         ]
     }
 ]

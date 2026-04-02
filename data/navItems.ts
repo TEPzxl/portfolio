@@ -1,10 +1,11 @@
 export type NavItem = {
     name: string;
-    href: string;
+    link: string;
+    icon?: React.ReactNode;
 }
 
 export const navItems: NavItem[] = [
-    {name: "About", href: "#about"},
-    {name: "Projects", href: "#projects"},
-    {name: "Contact", href: "#contact"},
-]
+    {name: "About", link: "#about"},
+    {name: "Projects", link: "#projects"},
+    {name: "Contact", link: "#contact"},
+];
