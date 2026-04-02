@@ -26,7 +26,7 @@ export const projectsData: Project[] = [
         id: 1,
         title: "Project One",
         description: "A web application built with Next.js and Tailwind CSS.",
-        imageUrl: "/pexels-gasparzaldo-13451830.jpg",
+        imageUrl: "/portfolio.png",
         projectUrl: "https://example.com/project-one",
         iconList: ["nextjs", "tailwindcss", "typescript"]
     },
@@ -34,7 +34,7 @@ export const projectsData: Project[] = [
         id: 2,
         title: "Project Two",
         description: "A web application built with Next.js and Tailwind CSS.",
-        imageUrl: "/pexels-gasparzaldo-13451830.jpg",
+        imageUrl: "/portfolio.png",
         projectUrl: "https://example.com/project-two",
         iconList: ["nextjs", "tailwindcss", "typescript"]
     },
@@ -42,7 +42,7 @@ export const projectsData: Project[] = [
         id: 3,
         title: "Project Three",
         description: "A web application built with Next.js and Tailwind CSS.",
-        imageUrl: "/pexels-gasparzaldo-13451830.jpg",
+        imageUrl: "/portfolio.png",
         projectUrl: "https://example.com/project-three",
         iconList: ["nextjs", "tailwindcss", "typescript"]
     }

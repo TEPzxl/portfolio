@@ -19,24 +19,23 @@ const Hero = () => {
       <div className="relative z-10 text-center flex flex-col items-center">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <h2 className="uppercase tracking-widest text-xs text-blue-100 max-w-80">
-            Dynamic Web Magic with Next.js
+            TEPZXL | 全栈开发者作品集
           </h2>
 
           <TextGenerateEffect
-            words="Crafting Dynamic Web Experiences with Next.js: A Portfolio Showcase"
+            words="我专注于构建高性能、可扩展的 Web 产品，从精致前端到可靠后端，覆盖全链路交付。"
             className="text-center text-4xl md:text-6xl lg:text-7xl max-w-[90vw] md:max-w-2xl lg:max-w-[60vw]"
           />
 
           <p className="my-6 text-lg text-gray-300 max-w-[90vw] md:max-w-2xl lg:max-w-[60vw]">
-            Welcome to my portfolio, where I showcase my expertise in crafting
-            dynamic web experiences using Next.js. Explore my projects and see how
-            I bring creativity and functionality together in the world of web
-            development.
+            我使用 Next.js、TypeScript 与现代后端技术栈打造可落地的软件产品。
+            这个作品集展示了我如何把产品想法转化为可上线功能，并在架构清晰、
+            性能优化和用户体验之间取得平衡。
           </p>
 
-          <a href="#about">
+          <a href="#projects">
             <MagicButton 
-                title="show my work"
+                title="查看我的项目"
                 icon={<FaLocationArrow />}
                 position="right"
             />

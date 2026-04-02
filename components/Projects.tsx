@@ -1,4 +1,5 @@
 import { projectsData, type TechIconKey } from "@/data/projects";
+import Image from "next/image";
 import type { IconType } from "react-icons";
 import {
   SiApachekafka,
@@ -47,10 +48,12 @@ const Projects = () => {
             >
               <PinContainer title={projectUrl} href={projectUrl}>
                 <div className="relative flex items-center justify-center sm:w-[520px] w-[80vw] overflow-hidden h-[30vh] sm:h-[40vh] mb-10">
-                  <img
+                  <Image
                     src={imageUrl}
                     alt={title}
-                    className="absolute bottom-0"
+                    fill
+                    sizes="(max-width: 640px) 80vw, 520px"
+                    className="object-contain object-bottom"
                   />
                 </div>
 
