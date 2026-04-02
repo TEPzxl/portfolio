@@ -1,12 +1,11 @@
 import React from 'react'
 import { FloatingNav } from './ui/FloatingNav'
+import { navItems } from '@/data/navItems'
 
 const NavBar = () => {
   return (
     <FloatingNav 
-    navItems={[
-        {name: 'Home', link: '#home'},
-        {name: 'About', link: '#about'}]}
+    navItems={navItems}
     />
   )
 }
