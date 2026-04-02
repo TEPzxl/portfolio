@@ -6,7 +6,7 @@ import { TextGenerateEffect } from "./ui/text-generate-effect";
 
 const Hero = () => {
   return (
-    <section className="relative w-full min-h-screen overflow-hidden bg-black-100 flex items-center justify-center">
+    <section id="about" className="relative w-full min-h-screen overflow-hidden bg-black-100 flex items-center justify-center">
       <Spotlight
         className="-top-40 left-0 md:-left-32 md:-top-20 h-screen"
         fill="white"
